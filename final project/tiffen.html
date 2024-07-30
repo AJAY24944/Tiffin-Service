@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffin Service</title>
+    <link rel="stylesheet" href="C:\Users\ellan\OneDrive\Desktop\css\styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Tiffin Service</h1>
+        <p>Enjoy delicious home-cooked meals delivered to your doorstep.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Dish Name</h3>
+            <p>Description of the dish.</p>
+            <button onclick="orderDish('Dish Name')">Order Now</button>
+        </div>
+        <!-- Repeat for more menu items -->
+    </section>
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <div class="review-item">
+            <h3>User Name</h3>
+            <p>Review text...</p>
+            <div class="rating">★★★★☆</div>
+        </div>
+        <!-- Repeat for more reviews -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tiffin Service</p>
+    </footer>
+    <script src="C:\Users\ellan\OneDrive\Desktop\js\jss.js"></script>
+</body>
+</html>
